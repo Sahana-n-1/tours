@@ -4,9 +4,9 @@ const Card = ( {id,name,info,image,price} )=>{
     const bookingHandler=(id)=>{
         console.log("booked",id);
         toast.success("Booked!")
-        toast.info("booked!")
-        toast.error("Booked!")
-        toast.info("booked")
+        //toast.info("booked!")
+        //toast.error("Booked!")
+        //toast.info("booked")
     }
     return(
         <div className="card">
